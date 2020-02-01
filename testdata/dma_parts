@@ -1,0 +1,57 @@
+Partlist
+
+Exported from vdma_only.sch at 1/31/2020 7:56 PM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part       Value          Device          Package      Library      Sheet
+
+G.RAM      SRAM_32K       SRAM_32K        DIL28-3      000_mychips2 1
+IC3        74HC573N       74HC573N        DIL20        74xx-us      1
+IC5        74AS573N       74AS573N        DIL20        74xx-us      1
+IC6        74AS573N       74AS573N        DIL20        74xx-us      1
+IC7        74AS573N       74AS573N        DIL20        74xx-us      1
+IC8        74AS573N       74AS573N        DIL20        74xx-us      1
+IC9        74LS74N        74LS74N         DIL14        74xx-us      1
+IC16       74AS573N       74AS573N        DIL20        74xx-us      1
+IC17       74AS573N       74AS573N        DIL20        74xx-us      1
+IC18       7432N          7432N           DIL14        74xx-us      1
+IC19       74LS257N       74LS257N        DIL16        74xx-us      1
+IC20       7430N          7430N           DIL14        74xx-us      1
+IC22       74LS257N       74LS257N        DIL16        74xx-us      1
+IC23       74LS257N       74LS257N        DIL16        74xx-us      1
+IC24       74LS257N       74LS257N        DIL16        74xx-us      1
+IC25       74LS257N       74LS257N        DIL16        74xx-us      1
+IC26       74LS257N       74LS257N        DIL16        74xx-us      1
+IC27       74LS257N       74LS257N        DIL16        74xx-us      1
+IC28       74LS257N       74LS257N        DIL16        74xx-us      1
+IC29       74LS257N       74LS257N        DIL16        74xx-us      1
+IC30       74HC573N       74HC573N        DIL20        74xx-us      1
+IC31       74S00N         74S00N          DIL14        74xx-us      1
+IC32       7432N          7432N           DIL14        74xx-us      1
+IC53       7404N          7404N           DIL14        74xx-us      1
+IC54       74LS07N        74LS07N         DIL14        74xx-us      1
+SYSADDR                   PINHD-1X16/90   1X16/90      pinhead      1
+SYSCLOCK                  PINHD-1X1       1X01         pinhead      1
+SYSDATA                   PINHD-1X8/90    1X08/90      pinhead      1
+SYSFLAGSEL                PINHD-1X1       1X01         pinhead      1
+SYSSTAT                   PINHD-1X6/90    1X06/90      pinhead      1
+U$2        CD40103        CD40103         DIL16        000_mychips2 1
+U$3        CD40103        CD40103         DIL16        000_mychips2 1
+U$5        74HC238        74HC238         DIL16        000_mychips2 1
+U$10       74HC163        74HC163         DIL16        000_mychips2 1
+U$11       74HC163        74HC163         DIL16        000_mychips2 1
+U$12       74HC163        74HC163         DIL16        000_mychips2 1
+U$13       74HC163        74HC163         DIL16        000_mychips2 1
+U$14       74HC163        74HC163         DIL16        000_mychips2 1
+U$15       74HC163        74HC163         DIL16        000_mychips2 1
+U$16       74HC163        74HC163         DIL16        000_mychips2 1
+U$17       74HC163        74HC163         DIL16        000_mychips2 1
+V1         74640N         74640N          DIL20        74ttl-din    1
+VADDR                     PINHD-1X15/90   1X15/90      pinhead      1
+VDATA                     PINHD-1X8/90    1X08/90      pinhead      1
+VIDSEL                    PINHD-1X1       1X01         pinhead      1
+VPAGE                     PINHD-1X1       1X01         pinhead      1
+VSTAT                     PINHD-1X6/90    1X06/90      pinhead      1

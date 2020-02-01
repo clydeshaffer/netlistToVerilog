@@ -1,0 +1,22 @@
+Netlist
+
+Exported from vdma_only.sch at 1/31/2020 1:32 AM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Net          Part       Pad      Pin        Sheet
+
+A0           IC22       3        1B         1
+             IC26       3        1B         1
+             SYSADDR    16       16         1
+             U$5        1        A          1
+
+A1           IC22       6        2B         1
+             IC26       6        2B         1
+             SYSADDR    15       15         1
+             U$5        2        B          1
+
+A2           IC22       10       3B         1
+             IC26       10       3B         1
+             SYSADDR    14       14         1
+             U$5        3        C          1

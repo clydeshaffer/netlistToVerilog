@@ -1,0 +1,924 @@
+Netlist
+
+Exported from vdma_only.sch at 1/31/2020 1:32 AM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Net          Part       Pad      Pin        Sheet
+
+A0           IC22       3        1B         1
+             IC26       3        1B         1
+             SYSADDR    16       16         1
+             U$5        1        A          1
+
+A1           IC22       6        2B         1
+             IC26       6        2B         1
+             SYSADDR    15       15         1
+             U$5        2        B          1
+
+A2           IC22       10       3B         1
+             IC26       10       3B         1
+             SYSADDR    14       14         1
+             U$5        3        C          1
+
+A3           IC22       13       4B         1
+             IC26       13       4B         1
+             SYSADDR    13       13         1
+
+A4           IC23       3        1B         1
+             IC27       3        1B         1
+             SYSADDR    12       12         1
+
+A5           IC23       6        2B         1
+             IC27       6        2B         1
+             SYSADDR    11       11         1
+
+A6           IC23       10       3B         1
+             IC27       10       3B         1
+             SYSADDR    10       10         1
+
+A7           IC24       3        1B         1
+             IC28       3        1B         1
+             SYSADDR    9        9          1
+
+A8           IC24       6        2B         1
+             IC28       6        2B         1
+             SYSADDR    8        8          1
+
+A9           IC24       10       3B         1
+             IC28       10       3B         1
+             SYSADDR    7        7          1
+
+A10          IC24       13       4B         1
+             IC28       13       4B         1
+             SYSADDR    6        6          1
+
+A11          IC25       3        1B         1
+             IC29       3        1B         1
+             SYSADDR    5        5          1
+
+A12          IC25       6        2B         1
+             IC29       6        2B         1
+             SYSADDR    4        4          1
+
+A13          IC25       10       3B         1
+             IC29       10       3B         1
+             SYSADDR    3        3          1
+
+D0           IC16       2        1D         1
+             IC17       2        1D         1
+             IC3        2        1D         1
+             IC30       2        1D         1
+             IC5        2        1D         1
+             IC6        2        1D         1
+             IC7        2        1D         1
+             IC8        2        1D         1
+             IC9        2        D          1
+             SYSDATA    8        8          1
+             V1         18       B1         1
+
+D1           IC16       3        2D         1
+             IC17       3        2D         1
+             IC3        3        2D         1
+             IC30       3        2D         1
+             IC5        3        2D         1
+             IC6        3        2D         1
+             IC7        3        2D         1
+             IC8        3        2D         1
+             IC9        12       D          1
+             SYSDATA    7        7          1
+             V1         17       B2         1
+
+D2           IC16       4        3D         1
+             IC17       4        3D         1
+             IC3        4        3D         1
+             IC30       4        3D         1
+             IC5        4        3D         1
+             IC6        4        3D         1
+             IC7        4        3D         1
+             IC8        4        3D         1
+             SYSDATA    6        6          1
+             V1         16       B3         1
+
+D3           IC16       5        4D         1
+             IC17       5        4D         1
+             IC3        5        4D         1
+             IC30       5        4D         1
+             IC5        5        4D         1
+             IC6        5        4D         1
+             IC7        5        4D         1
+             IC8        5        4D         1
+             SYSDATA    5        5          1
+             V1         15       B4         1
+
+D4           IC16       6        5D         1
+             IC17       6        5D         1
+             IC3        6        5D         1
+             IC30       6        5D         1
+             IC5        6        5D         1
+             IC6        6        5D         1
+             IC7        6        5D         1
+             IC8        6        5D         1
+             SYSDATA    4        4          1
+             V1         14       B5         1
+
+D5           IC16       7        6D         1
+             IC17       7        6D         1
+             IC3        7        6D         1
+             IC30       7        6D         1
+             IC5        7        6D         1
+             IC6        7        6D         1
+             IC7        7        6D         1
+             IC8        7        6D         1
+             SYSDATA    3        3          1
+             V1         13       B6         1
+
+D6           IC16       8        7D         1
+             IC17       8        7D         1
+             IC3        8        7D         1
+             IC30       8        7D         1
+             IC5        8        7D         1
+             IC6        8        7D         1
+             IC7        8        7D         1
+             IC8        8        7D         1
+             SYSDATA    2        2          1
+             V1         12       B7         1
+
+D7           IC16       9        8D         1
+             IC17       9        8D         1
+             IC3        9        8D         1
+             IC30       9        8D         1
+             IC5        9        8D         1
+             IC6        9        8D         1
+             IC7        9        8D         1
+             IC8        9        8D         1
+             SYSDATA    1        1          1
+             V1         11       B8         1
+
+DMA-ENABLED  IC18       9        I0         1
+             IC9        5        Q          1
+             U$10       7        ENP        1
+             U$11       7        ENP        1
+             U$14       7        ENP        1
+             U$15       7        ENP        1
+
+DMA-ROWCLOCK IC53       12       O          1
+             U$12       7        ENP        1
+             U$13       7        ENP        1
+             U$16       7        ENP        1
+             U$17       7        ENP        1
+
+DMACLK       IC31       2        I1         1
+             IC31       4        I0         1
+             IC31       5        I1         1
+             IC32       11       O          1
+             U$10       2        CLK        1
+             U$10       9        _LOAD      1
+             U$11       2        CLK        1
+             U$11       9        _LOAD      1
+             U$12       2        CLK        1
+             U$13       2        CLK        1
+             U$14       2        CLK        1
+             U$14       9        _LOAD      1
+             U$15       2        CLK        1
+             U$15       9        _LOAD      1
+             U$16       2        CLK        1
+             U$17       2        CLK        1
+
+DMAMODE      IC18       10       I1         1
+             IC18       4        I0         1
+             IC3        19       1Q         1
+             U$5        6        G1         1
+
+DMASTART     IC31       12       I0         1
+             IC31       13       I1         1
+             IC9        11       CLK        1
+             IC9        3        CLK        1
+             U$5        9        Y6         1
+
+GND          C1         2        2          2
+             C10        2        2          2
+             C11        2        2          2
+             C12        2        2          2
+             C13        2        2          2
+             C14        2        2          2
+             C15        2        2          2
+             C16        2        2          2
+             C17        2        2          2
+             C18        2        2          2
+             C19        2        2          2
+             C2         2        2          2
+             C20        2        2          2
+             C21        2        2          2
+             C22        2        2          2
+             C23        2        2          2
+             C24        2        2          2
+             C25        2        2          2
+             C26        2        2          2
+             C27        2        2          2
+             C28        2        2          2
+             C29        2        2          2
+             C3         2        2          2
+             C30        2        2          2
+             C31        2        2          2
+             C32        2        2          2
+             C33        2        2          2
+             C34        2        2          2
+             C35        2        2          2
+             C36        2        2          2
+             C39        2        2          2
+             C4         2        2          2
+             C40        2        2          2
+             C45        2        2          2
+             C5         2        2          2
+             C6         2        2          2
+             C7         2        2          2
+             C8         2        2          2
+             C9         2        2          2
+             G.RAM      14       GND        * none *
+             G.RAM      20       _CS        1
+             GND0       1        1          1
+             GND1       1        1          1
+             GND13      1        1          1
+             GND14      1        1          1
+             GND18      1        1          1
+             GND2       1        1          1
+             GND28      1        1          1
+             GND29      1        1          1
+             IC16       1        OC         1
+             IC16       10       GND        * none *
+             IC17       1        OC         1
+             IC17       10       GND        * none *
+             IC18       7        GND        * none *
+             IC19       15       G          1
+             IC19       8        GND        * none *
+             IC20       7        GND        * none *
+             IC22       15       G          1
+             IC22       8        GND        * none *
+             IC23       15       G          1
+             IC23       8        GND        * none *
+             IC24       15       G          1
+             IC24       8        GND        * none *
+             IC25       15       G          1
+             IC25       8        GND        * none *
+             IC26       15       G          1
+             IC26       8        GND        * none *
+             IC27       15       G          1
+             IC27       8        GND        * none *
+             IC28       15       G          1
+             IC28       8        GND        * none *
+             IC29       14       4A         1
+             IC29       15       G          1
+             IC29       8        GND        * none *
+             IC3        1        OC         1
+             IC3        10       GND        * none *
+             IC30       1        OC         1
+             IC30       10       GND        * none *
+             IC31       7        GND        * none *
+             IC32       7        GND        * none *
+             IC5        1        OC         1
+             IC5        10       GND        * none *
+             IC53       7        GND        * none *
+             IC54       7        GND        * none *
+             IC6        1        OC         1
+             IC6        10       GND        * none *
+             IC7        1        OC         1
+             IC7        10       GND        * none *
+             IC8        1        OC         1
+             IC8        10       GND        * none *
+             IC9        7        GND        * none *
+             RAIL       1        1          1
+             RAIL1      2        2          1
+             U$10       8        GND        * none *
+             U$11       6        P3         1
+             U$11       8        GND        * none *
+             U$12       8        GND        * none *
+             U$13       6        P3         1
+             U$13       8        GND        * none *
+             U$14       8        GND        * none *
+             U$15       6        P3         1
+             U$15       8        GND        * none *
+             U$16       8        GND        * none *
+             U$17       6        P3         1
+             U$17       8        GND        * none *
+             U$2        8        GND        * none *
+             U$3        8        GND        * none *
+             U$5        8        GND        * none *
+             V1         10       -UB        1
+
+GRAMBANK     G.RAM      1        A14        1
+             IC30       19       1Q         1
+
+N$1          G.RAM      10       A0         1
+             IC26       4        1Y         1
+
+N$2          G.RAM      9        A1         1
+             IC26       7        2Y         1
+
+N$3          G.RAM      8        A2         1
+             IC26       9        3Y         1
+
+N$4          G.RAM      7        A3         1
+             IC26       12       4Y         1
+
+N$5          G.RAM      6        A4         1
+             IC27       4        1Y         1
+
+N$6          G.RAM      5        A5         1
+             IC27       7        2Y         1
+
+N$7          G.RAM      4        A6         1
+             IC27       9        3Y         1
+
+N$8          G.RAM      3        A7         1
+             IC28       4        1Y         1
+
+N$9          G.RAM      25       A8         1
+             IC28       7        2Y         1
+
+N$10         G.RAM      24       A9         1
+             IC28       9        3Y         1
+
+N$11         G.RAM      21       A10        1
+             IC28       12       4Y         1
+
+N$12         G.RAM      23       A11        1
+             IC29       4        1Y         1
+
+N$13         G.RAM      2        A12        1
+             IC29       7        2Y         1
+
+N$14         G.RAM      26       A13        1
+             IC29       9        3Y         1
+
+N$15         IC23       14       4A         1
+             IC31       3        O          1
+
+N$16         IC31       1        I0         1
+             IC31       8        O          1
+
+N$17         G.RAM      27       _WE        1
+             IC27       12       4Y         1
+
+N$18         G.RAM      22       _OE        1
+             IC29       12       4Y         1
+
+N$19         IC6        19       1Q         1
+             U$16       3        P0         1
+
+N$20         IC6        18       2Q         1
+             U$16       4        P1         1
+
+N$21         IC6        17       3Q         1
+             U$16       5        P2         1
+
+N$22         IC6        16       4Q         1
+             U$16       6        P3         1
+
+N$23         IC5        15       5Q         1
+             U$15       3        P0         1
+
+N$24         IC5        14       6Q         1
+             U$15       4        P1         1
+
+N$25         IC5        13       7Q         1
+             U$15       5        P2         1
+
+N$26         IC6        15       5Q         1
+             U$17       3        P0         1
+
+N$27         IC5        19       1Q         1
+             U$14       3        P0         1
+
+N$28         IC5        18       2Q         1
+             U$14       4        P1         1
+
+N$29         IC5        17       3Q         1
+             U$14       5        P2         1
+
+N$30         IC5        16       4Q         1
+             U$14       6        P3         1
+
+N$31         IC6        14       6Q         1
+             U$17       4        P1         1
+
+N$32         IC6        13       7Q         1
+             U$17       5        P2         1
+
+N$33         IC18       3        O          1
+             SYSSTAT    6        6          1
+
+N$34         IC3        17       3Q         1
+             IC53       1        I          1
+
+N$35         IC17       15       5Q         1
+             U$13       3        P0         1
+
+N$36         IC17       14       6Q         1
+             U$13       4        P1         1
+
+N$37         IC17       13       7Q         1
+             U$13       5        P2         1
+
+N$38         IC18       2        I1         1
+             IC53       2        O          1
+
+N$39         IC18       1        I0         1
+             VSTAT      1        1          1
+
+N$50         IC19       4        1Y         1
+             IC23       13       4B         1
+
+N$51         IC8        19       1Q         1
+             U$3        4        P0         1
+
+N$52         IC8        18       2Q         1
+             U$3        5        P1         1
+
+N$53         IC8        17       3Q         1
+             U$3        6        P2         1
+
+N$54         IC8        16       4Q         1
+             U$3        7        P3         1
+
+N$55         IC8        15       5Q         1
+             U$3        10       P4         1
+
+N$56         IC8        14       6Q         1
+             U$3        11       P5         1
+
+N$57         IC8        13       7Q         1
+             U$3        12       P6         1
+
+N$58         IC8        12       8Q         1
+             U$3        13       P7         1
+
+N$59         IC7        19       1Q         1
+             U$2        4        P0         1
+
+N$60         IC7        18       2Q         1
+             U$2        5        P1         1
+
+N$61         IC7        17       3Q         1
+             U$2        6        P2         1
+
+N$62         IC7        16       4Q         1
+             U$2        7        P3         1
+
+N$63         IC7        15       5Q         1
+             U$2        10       P4         1
+
+N$64         IC7        14       6Q         1
+             U$2        11       P5         1
+
+N$65         IC7        13       7Q         1
+             U$2        12       P6         1
+
+N$66         IC7        12       8Q         1
+             U$2        13       P7         1
+
+N$67         IC19       7        2Y         1
+             IC25       13       4B         1
+
+N$69         IC19       9        3Y         1
+             IC27       13       4B         1
+
+N$70         IC19       12       4Y         1
+             IC29       13       4B         1
+
+N$71         IC16       11       C          1
+             U$5        15       Y0         1
+
+N$72         G.RAM      11       D0         1
+             IC20       1        I0         1
+             V1         2        A1         1
+             VDATA      1        1          1
+
+N$73         G.RAM      12       D1         1
+             IC20       2        I1         1
+             V1         3        A2         1
+             VDATA      2        2          1
+
+N$74         G.RAM      13       D2         1
+             IC20       3        I2         1
+             V1         4        A3         1
+             VDATA      3        3          1
+
+N$75         G.RAM      15       D3         1
+             IC20       4        I3         1
+             V1         5        A4         1
+             VDATA      4        4          1
+
+N$76         G.RAM      16       D4         1
+             IC20       5        I4         1
+             V1         6        A5         1
+             VDATA      5        5          1
+
+N$77         G.RAM      17       D5         1
+             IC20       6        I5         1
+             V1         7        A6         1
+             VDATA      6        6          1
+
+N$78         G.RAM      18       D6         1
+             IC20       11       I6         1
+             V1         8        A7         1
+             VDATA      7        7          1
+
+N$79         G.RAM      19       D7         1
+             IC20       12       I7         1
+             V1         9        A8         1
+             VDATA      8        8          1
+
+N$81         IC22       7        2Y         1
+             VADDR      2        2          1
+
+N$82         IC22       9        3Y         1
+             VADDR      3        3          1
+
+N$83         IC22       12       4Y         1
+             VADDR      4        4          1
+
+N$84         IC23       4        1Y         1
+             VADDR      5        5          1
+
+N$85         IC23       7        2Y         1
+             VADDR      6        6          1
+
+N$86         IC23       9        3Y         1
+             VADDR      7        7          1
+
+N$87         IC24       4        1Y         1
+             VADDR      8        8          1
+
+N$88         IC24       7        2Y         1
+             VADDR      9        9          1
+
+N$89         IC24       9        3Y         1
+             VADDR      10       10         1
+
+N$90         IC24       12       4Y         1
+             VADDR      11       11         1
+
+N$91         IC25       4        1Y         1
+             VADDR      12       12         1
+
+N$92         IC25       7        2Y         1
+             VADDR      13       13         1
+
+N$93         IC25       9        3Y         1
+             VADDR      14       14         1
+
+N$94         IC17       11       C          1
+             U$5        14       Y1         1
+
+N$96         IC5        11       C          1
+             U$5        13       Y2         1
+
+N$98         IC6        11       C          1
+             U$5        12       Y3         1
+
+N$100        IC32       1        I0         1
+             IC9        8        !Q         1
+
+N$107        U$10       15       RCO        1
+             U$11       10       ENT        1
+
+N$108        IC7        11       C          1
+             U$5        11       Y4         1
+
+N$109        U$12       15       RCO        1
+             U$13       10       ENT        1
+
+N$110        U$14       15       RCO        1
+             U$15       10       ENT        1
+
+N$111        IC8        11       C          1
+             U$5        10       Y5         1
+
+N$112        U$16       15       RCO        1
+             U$17       10       ENT        1
+
+N$113        IC17       19       1Q         1
+             U$12       3        P0         1
+
+N$114        IC17       18       2Q         1
+             U$12       4        P1         1
+
+N$115        IC17       17       3Q         1
+             U$12       5        P2         1
+
+N$116        IC17       16       4Q         1
+             U$12       6        P3         1
+
+N$117        IC16       15       5Q         1
+             U$11       3        P0         1
+
+N$118        IC16       14       6Q         1
+             U$11       4        P1         1
+
+N$119        IC16       13       7Q         1
+             U$11       5        P2         1
+
+N$121        IC16       19       1Q         1
+             U$10       3        P0         1
+
+N$122        IC16       18       2Q         1
+             U$10       4        P1         1
+
+N$123        IC16       17       3Q         1
+             U$10       5        P2         1
+
+N$124        IC16       16       4Q         1
+             U$10       6        P3         1
+
+N$125        IC30       11       C          1
+             U$5        7        Y7         1
+
+N$159        IC22       2        1A         1
+             U$10       14       Q0         1
+
+N$160        IC22       5        2A         1
+             U$10       13       Q1         1
+
+N$161        IC22       11       3A         1
+             U$10       12       Q2         1
+
+N$162        IC22       14       4A         1
+             U$10       11       Q3         1
+
+N$163        IC23       2        1A         1
+             U$11       14       Q0         1
+
+N$164        IC23       5        2A         1
+             U$11       13       Q1         1
+
+N$165        IC23       11       3A         1
+             U$11       12       Q2         1
+
+N$166        IC24       2        1A         1
+             U$12       14       Q0         1
+
+N$167        IC24       5        2A         1
+             U$12       13       Q1         1
+
+N$168        IC24       11       3A         1
+             U$12       12       Q2         1
+
+N$169        IC24       14       4A         1
+             U$12       11       Q3         1
+
+N$170        IC25       2        1A         1
+             U$13       14       Q0         1
+
+N$171        IC25       5        2A         1
+             U$13       13       Q1         1
+
+N$172        IC25       11       3A         1
+             U$13       12       Q2         1
+
+N$173        IC26       2        1A         1
+             U$14       14       Q0         1
+
+N$174        IC26       5        2A         1
+             U$14       13       Q1         1
+
+N$175        IC26       11       3A         1
+             U$14       12       Q2         1
+
+N$176        IC26       14       4A         1
+             U$14       11       Q3         1
+
+N$177        IC27       2        1A         1
+             U$15       14       Q0         1
+
+N$178        IC27       5        2A         1
+             U$15       13       Q1         1
+
+N$179        IC27       11       3A         1
+             U$15       12       Q2         1
+
+N$180        IC28       2        1A         1
+             U$16       14       Q0         1
+
+N$181        IC28       5        2A         1
+             U$16       13       Q1         1
+
+N$182        IC28       11       3A         1
+             U$16       12       Q2         1
+
+N$183        IC28       14       4A         1
+             U$16       11       Q3         1
+
+N$184        IC29       2        1A         1
+             U$17       14       Q0         1
+
+N$185        IC29       5        2A         1
+             U$17       13       Q1         1
+
+N$186        IC29       11       3A         1
+             U$17       12       Q2         1
+
+N$211        IC54       2        O          1
+             SYSSTAT    2        2          1
+
+N$213        IC20       8        O          1
+             IC53       9        I          1
+
+N$214        IC31       9        I0         1
+             IC53       8        O          1
+
+N$217        IC18       6        O          1
+             IC32       4        I0         1
+             IC32       9        I0         1
+
+N$222        IC18       8        O          1
+             V1         19       !G         1
+
+SYSCLK       IC32       12       I0         1
+             SYSCLOCK   1        1          1
+
+SYSFLAG_REG  IC3        11       C          1
+             SYSFLAGSEL 1        1          1
+
+TRANSEN      IC30       15       5Q         1
+             IC31       10       I1         1
+
+V/_G         IC19       1        !A!/B      1
+             IC30       17       3Q         1
+
+VA0          IC22       4        1Y         1
+             VADDR      1        1          1
+
+VCC          C1         1        1          2
+             C10        1        1          2
+             C11        1        1          2
+             C12        1        1          2
+             C13        1        1          2
+             C14        1        1          2
+             C15        1        1          2
+             C16        1        1          2
+             C17        1        1          2
+             C18        1        1          2
+             C19        1        1          2
+             C2         1        1          2
+             C20        1        1          2
+             C21        1        1          2
+             C22        1        1          2
+             C23        1        1          2
+             C24        1        1          2
+             C25        1        1          2
+             C26        1        1          2
+             C27        1        1          2
+             C28        1        1          2
+             C29        1        1          2
+             C3         1        1          2
+             C30        1        1          2
+             C31        1        1          2
+             C32        1        1          2
+             C33        1        1          2
+             C34        1        1          2
+             C35        1        1          2
+             C36        1        1          2
+             C39        1        1          2
+             C4         1        1          2
+             C40        1        1          2
+             C45        1        1          2
+             C5         1        1          2
+             C6         1        1          2
+             C7         1        1          2
+             C8         1        1          2
+             C9         1        1          2
+             G.RAM      28       VCC        * none *
+             IC16       20       VCC        * none *
+             IC17       20       VCC        * none *
+             IC18       14       VCC        * none *
+             IC19       10       3B         1
+             IC19       13       4B         1
+             IC19       16       VCC        * none *
+             IC19       2        1A         1
+             IC19       5        2A         1
+             IC20       14       VCC        * none *
+             IC22       16       VCC        * none *
+             IC23       16       VCC        * none *
+             IC24       16       VCC        * none *
+             IC25       14       4A         1
+             IC25       16       VCC        * none *
+             IC26       16       VCC        * none *
+             IC27       14       4A         1
+             IC27       16       VCC        * none *
+             IC28       16       VCC        * none *
+             IC29       16       VCC        * none *
+             IC3        20       VCC        * none *
+             IC30       20       VCC        * none *
+             IC31       14       VCC        * none *
+             IC32       14       VCC        * none *
+             IC5        20       VCC        * none *
+             IC53       14       VCC        * none *
+             IC54       14       VCC        * none *
+             IC6        20       VCC        * none *
+             IC7        20       VCC        * none *
+             IC8        20       VCC        * none *
+             IC9        13       CLR        1
+             IC9        14       VCC        * none *
+             IC9        4        PRE        1
+             RAIL       2        2          1
+             RAIL1      1        1          1
+             U$10       1        _CLR       1
+             U$10       10       ENT        1
+             U$10       16       VCC        * none *
+             U$11       1        _CLR       1
+             U$11       16       VCC        * none *
+             U$12       1        _CLR       1
+             U$12       10       ENT        1
+             U$12       16       VCC        * none *
+             U$13       1        _CLR       1
+             U$13       16       VCC        * none *
+             U$14       1        _CLR       1
+             U$14       10       ENT        1
+             U$14       16       VCC        * none *
+             U$15       1        _CLR       1
+             U$15       16       VCC        * none *
+             U$16       1        _CLR       1
+             U$16       10       ENT        1
+             U$16       16       VCC        * none *
+             U$17       1        _CLR       1
+             U$17       16       VCC        * none *
+             U$2        16       VCC        * none *
+             U$2        2        MR         1
+             U$3        16       VCC        * none *
+             U$3        2        MR         1
+             U$5        16       VCC        * none *
+             V1         20       +UB        1
+
+VG_OE        IC19       14       4A         1
+             IC19       6        2B         1
+             IC32       8        O          1
+
+VG_WE        IC19       11       3A         1
+             IC19       3        1B         1
+             IC32       6        O          1
+             V1         1        DIR        1
+
+VIDPAGE      IC3        18       2Q         1
+             VPAGE      1        1          1
+
+VRAMBANK     IC30       18       2Q         1
+             VADDR      15       15         1
+
+_COPYDONE    IC9        1        CLR        1
+             IC9        10       PRE        1
+             U$3        14       TC         1
+             U$3        15       PE         1
+
+_DMA-ENABLED IC22       1        !A!/B      1
+             IC23       1        !A!/B      1
+             IC24       1        !A!/B      1
+             IC25       1        !A!/B      1
+             IC26       1        !A!/B      1
+             IC27       1        !A!/B      1
+             IC28       1        !A!/B      1
+             IC29       1        !A!/B      1
+             IC32       13       I1         1
+             IC9        6        !Q         1
+             U$2        3        TE         1
+             U$3        3        TE         1
+
+_DMACLK      IC31       6        O          1
+             U$2        1        CP         1
+             U$3        1        CP         1
+
+_DMAIRQ      IC32       3        O          1
+             IC54       1        I          1
+
+_DMAIRQEN    IC30       16       4Q         1
+             IC32       2        I1         1
+
+_DMASTART    IC31       11       O          1
+             U$12       9        _LOAD      1
+             U$13       9        _LOAD      1
+             U$16       9        _LOAD      1
+             U$17       9        _LOAD      1
+             U$2        9        PL         1
+             U$3        9        PL         1
+
+_OE2         IC32       10       I1         1
+             SYSSTAT    1        1          1
+
+_ROWCOMPLETE IC53       13       I          1
+             U$2        14       TC         1
+             U$2        15       PE         1
+
+_VID_SEL     IC18       5        I1         1
+             U$5        5        G2B        1
+             VIDSEL     1        1          1
+
+_VOE         IC25       12       4Y         1
+             VSTAT      6        6          1
+
+_VWE         IC23       12       4Y         1
+             VSTAT      3        3          1
+
+_WE2         IC32       5        I1         1
+             SYSSTAT    4        4          1
+             U$5        4        G2A        1
+
