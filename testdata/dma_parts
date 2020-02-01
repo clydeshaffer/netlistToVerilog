@@ -10,13 +10,13 @@ Part       Value          Device          Package      Library      Sheet
 
 G.RAM      SRAM_32K       SRAM_32K        DIL28-3      000_mychips2 1
 IC3        74HC573N       74HC573N        DIL20        74xx-us      1
-IC5        74AS573N       74AS573N        DIL20        74xx-us      1
-IC6        74AS573N       74AS573N        DIL20        74xx-us      1
-IC7        74AS573N       74AS573N        DIL20        74xx-us      1
-IC8        74AS573N       74AS573N        DIL20        74xx-us      1
-IC9        74LS74N        74LS74N         DIL14        74xx-us      1
-IC16       74AS573N       74AS573N        DIL20        74xx-us      1
-IC17       74AS573N       74AS573N        DIL20        74xx-us      1
+IC5        74HC573N       74HC573N        DIL20        74xx-us      1
+IC6        74HC573N       74HC573N        DIL20        74xx-us      1
+IC7        74HC573N       74HC573N        DIL20        74xx-us      1
+IC8        74HC573N       74HC573N        DIL20        74xx-us      1
+IC9        74HC74N        74HC74N         DIL14        74xx-us      1
+IC16       74HC573N       74HC573N        DIL20        74xx-us      1
+IC17       74HC573N       74HC573N        DIL20        74xx-us      1
 IC18       7432N          7432N           DIL14        74xx-us      1
 IC19       74LS257N       74LS257N        DIL16        74xx-us      1
 IC20       7430N          7430N           DIL14        74xx-us      1
@@ -29,7 +29,7 @@ IC27       74LS257N       74LS257N        DIL16        74xx-us      1
 IC28       74LS257N       74LS257N        DIL16        74xx-us      1
 IC29       74LS257N       74LS257N        DIL16        74xx-us      1
 IC30       74HC573N       74HC573N        DIL20        74xx-us      1
-IC31       74S00N         74S00N          DIL14        74xx-us      1
+IC31       74HC00N        74HC00N         DIL14        74xx-us      1
 IC32       7432N          7432N           DIL14        74xx-us      1
 IC53       7404N          7404N           DIL14        74xx-us      1
 IC54       74LS07N        74LS07N         DIL14        74xx-us      1
@@ -49,7 +49,7 @@ U$14       74HC163        74HC163         DIL16        000_mychips2 1
 U$15       74HC163        74HC163         DIL16        000_mychips2 1
 U$16       74HC163        74HC163         DIL16        000_mychips2 1
 U$17       74HC163        74HC163         DIL16        000_mychips2 1
-V1         74640N         74640N          DIL20        74ttl-din    1
+V1         74HC640N       74HC640N        DIL20        74ttl-din    1
 VADDR                     PINHD-1X15/90   1X15/90      pinhead      1
 VDATA                     PINHD-1X8/90    1X08/90      pinhead      1
 VIDSEL                    PINHD-1X1       1X01         pinhead      1
