@@ -743,7 +743,7 @@ SYSFLAG_REG  IC3        11       C          1
 TRANSEN      IC30       15       5Q         1
              IC31       10       I1         1
 
-V/_G         IC19       1        !A!/B      1
+V_G          IC19       1        B      1
              IC30       17       3Q         1
 
 VA0          IC22       4        1Y         1
@@ -870,14 +870,14 @@ _COPYDONE    IC9        1        CLR        1
              U$3        14       TC         1
              U$3        15       PE         1
 
-_DMA-ENABLED IC22       1        !A!/B      1
-             IC23       1        !A!/B      1
-             IC24       1        !A!/B      1
-             IC25       1        !A!/B      1
-             IC26       1        !A!/B      1
-             IC27       1        !A!/B      1
-             IC28       1        !A!/B      1
-             IC29       1        !A!/B      1
+_DMA-ENABLED IC22       1        B      1
+             IC23       1        B      1
+             IC24       1        B      1
+             IC25       1        B      1
+             IC26       1        B      1
+             IC27       1        B      1
+             IC28       1        B      1
+             IC29       1        B      1
              IC32       13       I1         1
              IC9        6        !Q         1
              U$2        3        TE         1

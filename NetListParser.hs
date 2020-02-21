@@ -3,9 +3,10 @@ module Main where
 import System.Environment (getArgs)
 import System.IO (readFile)
 import Control.Applicative ((<$>))
+import Data.Char (toUpper, toLower)
 import Data.Maybe (fromJust, catMaybes)
-import Data.List (sortBy, groupBy, intercalate)
-import Data.List.Split (split, keepDelimsL, whenElt)
+import Data.List (sortBy, groupBy, intercalate, concat)
+import Data.List.Split (split, keepDelimsL, whenElt, splitOn)
 import Data.Map.Strict(Map, fromList, (!?))
 
 getLines :: Int -> String -> IO [[String]]
@@ -50,11 +51,18 @@ data Net = Net String [Pin]
 instance Show Net where
   show (Net n pns) = "Net " ++ n ++ " has pins " ++ (show pns)
 
+nameCase :: String -> String
+nameCase [] = []
+nameCase (x:xs) = (toUpper x) : (map toLower xs)
+
+cleanName :: String -> String
+cleanName s = concat $ map nameCase $ splitOn "-" s
+
 parseSection :: [[String]] -> Maybe Net
 parseSection [] = Nothing
 parseSection (firstLine:restOfSection) =
   let (name, firstLinePinInfo) = firstLineToNormalLine firstLine in
-    Just $ Net name ((fromJust $ parseLine firstLinePinInfo):(catMaybes $ map parseLine restOfSection))
+    Just $ Net (cleanName name) ((fromJust $ parseLine firstLinePinInfo):(catMaybes $ map parseLine restOfSection))
 
 loadAndParse :: String -> IO [Net]
 loadAndParse filename = catMaybes <$> map parseSection <$> splitSections <$> getLines 8 filename
@@ -98,11 +106,16 @@ identifyPart partMap device = case partMap !? devicePartName device of
   Just deviceVal -> Just $ IdentifiedDevice deviceVal device
   Nothing -> Nothing
 
+wireDefForNet :: Net -> String
+wireDefForNet (Net netname _) = "wire " ++ netname ++ ";"
+
 verilogFromFile :: String -> IO (String)
 verilogFromFile filenamePrefix = do
   partMap <- loadPartsMap $ filenamePrefix ++ "_parts"
-  partDefs <- groupNetListByDevice <$> loadAndParse "testdata/dma"
-  return $ intercalate "\n" $ map show $ catMaybes $ map (identifyPart partMap) partDefs
+  netList <- loadAndParse "testdata/dma"
+  let partDefs = groupNetListByDevice netList
+      wires = map wireDefForNet netList
+  return $ intercalate "\n" $ wires ++ (map show $ catMaybes $ map (identifyPart partMap) partDefs)
 
 main :: IO ()
 main = getArgs >>= parseArgs >>= putStr
